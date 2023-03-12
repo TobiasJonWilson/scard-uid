@@ -7,4 +7,4 @@ SlugGenerator replaces all characters with A-Z equivalents for a consistent resu
 
 Example: getUID('Tobias', 'Wilson, '1980-01-26', 1) will return 'ILOOB260119801'.
 
-For more information about the logic behind the class, please read the 'Specification of the UID.pdf' file.
+For more information about the logic behind the class, please read the https://github.com/TobiasJonWilson/scard-uid/blob/main/Specification%20of%20the%20UID.pdf file.
