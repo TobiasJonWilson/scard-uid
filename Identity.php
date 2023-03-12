@@ -1,5 +1,6 @@
 <?php
 
+use InvalidArgumentException;
 use Ausi\SlugGenerator\SlugGenerator;
 
 /**
@@ -8,16 +9,8 @@ use Ausi\SlugGenerator\SlugGenerator;
  * Version: 1.0.1
  * Date:    2023-03-13
  * Author:  Tobias Wilson
- *
- * This class generates the Unique Identifier (UID) for a person for de-identified matching.
- *
- * The primary change is using SlugGenerator (https://github.com/ausi/slug-generator) to normalise characters.
- * SlugGenerator replaces all characters with A-Z equivalents for a consistent result rather than an internal lookup table.
- *
- * @example getUID('Tobias', 'Wilson, '1980-01-26', 1) will return 'ILOOB260119801'.
- *
- */
- 
+ * Repo:    https://github.com/TobiasJonWilson/scard-uid/
+  */
 class Identity {
 
     /**
