@@ -18,7 +18,7 @@ class Identity {
      * @param string $strFirstName      - The first name of the person
      * @param string $strLastName       - The last name of the person
      * @param string $strDateOfBirth    - The date of birth of the person in the ISO 8601 format
-     * @param int $intSex               - The sex of the person as an int: 1 - Male, 2 - Female, 3 - Undisclosed
+     * @param int $intSex               - The sex of the person as an int: 1 - Male, 2 - Female, 3 - Intersex, 9 - Unknown/Unspecified
      * @return string                   - The UID generated for the person
      */
     public static function getUID(string $strFirstName, string $strLastName, string $strDateOfBirth = '9999-99-99', int $intSex = 9): string {
