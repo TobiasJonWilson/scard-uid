@@ -1,4 +1,6 @@
 # scard-uid
+**Note:** This project has been superseded by https://github.com/SCARDInc/UIDv2
+#### UIDs
 This PHP class is used to generate UIDs for people to allow for de-identified record matching.
 
 The primary change is using **SlugGenerator** (https://github.com/ausi/slug-generator) to normalise characters rather than an internal lookup table that had been used previously. Instead **SlugGenerator** replaces all characters with A-Z equivalents for a consistent result.
